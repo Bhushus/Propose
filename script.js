@@ -182,7 +182,7 @@ function drawText() {
   if (frameNumber > 1800 && frameNumber < 2100) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "is so incredibly, unfathomably unlikely",
+      "It is impossibly rare",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -191,7 +191,7 @@ function drawText() {
   if (frameNumber >= 2100 && frameNumber < 2400) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "is so incredibly, unfathomably unlikely",
+      "It is impossibly rare",
       canvas.width / 2,
       canvas.height / 2
     );
